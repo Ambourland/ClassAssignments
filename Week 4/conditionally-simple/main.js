@@ -2,8 +2,15 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function isItLong(string){
+  if(string.length >20){
+    console.log("That's a long string!")
+  }if else isItMedium(string){
+    
+  }
+}
 
-
+isItLong("BrownFox.........................")
 
 /**********************************
  *      OUR CODE GOES BELOW.      *
