@@ -121,9 +121,27 @@
 function capitalizeArray(arr){
     let country=[]
     for(const country of arr){
-        country.toUpperCase()
+         console.log(country.toUpperCase())
     }
-    console.log(country)
+   
 }
 
-capitalizeArray(["us","canada", "barcelona"])
+capitalizeArray(["us","canada", "barcelona", "Mexico", "Norway"])
+
+
+// function reverseArry(){
+//     let arr=[1,2,3,4,5];
+//     arr.reverse();
+//     console.log(arr)
+// }
+// reverseArry()
+
+
+function reverseArry(arr){
+    arr.reverse();
+    console.log(arr)
+}
+reverseArry(["a","b","c"])
+reverseArry(["cat","dog","cow"])
+
+

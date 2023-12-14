@@ -2,6 +2,37 @@
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
 
+//varables
+
+let x=3
+let y=10
+let z=4
+var greeting=("Hello")
+var firstName=("Andrea")
+var callStatus=("ringing")
+
+function double(){
+  x=x*2
+  
+}
+
+function triple(){
+  y=y*3
+}
+
+function square(){
+  z=z*z
+}
+
+function beNice(){
+greeting="hello "+firstName
+}
+
+function changeName(){
+  firstName="Danger"
+}
+
+function
 
 
 /*********************************************************************************************************************
