@@ -1,14 +1,43 @@
 // Arrow Function
+// function square(n){
+//     return n * n
+// }
+// console.log(square(2))
 
+// const square - n -> {
+//     return n * n
+// }
+// console.log(square(2))
 
 
 // Function with default parameters
+// function functionName(param = value){
+//     //code
+// }
 
+// function greetings(name = "Andrea"){
+//     let message = name
+//     return meeage
+// }
+// console.log(greetings)
 
 
 // Function declaration versus Arrow function
+// function functionName() {
+//     let name = 'Andrea'
+//     console.log(name)
 
+// }
+// functionName()
 
+// function hello(){
+//     console.log("Hello");
+// }
+// hello();
+
+// const hello = () => console.log("Hello");
+
+// hello();
 
 
 //........................................To Do..............................................
