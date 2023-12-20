@@ -1,0 +1,10 @@
+when you update an object you can add or delete an object
+can have a nested object in another object
+console.log("age" in person (object))
+for (let prop in person){
+    console.log(prop)  properties to an object will show
+}
+
+javascript method is an object 
+to access the other properties of an object within a method og the dame object, we use "this" keyword
+when you use "this" it refures to the object name

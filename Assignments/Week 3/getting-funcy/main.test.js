@@ -1,8 +1,36 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+var x = 3
+var y = 10
+var z = 4
+var greeting = "hello" 
+var firstName = "Andrea" 
+var callStatus = "ringing"
 
+function double(){
+   x = x*2
+}
 
+function triple(){
+y = y * 3
+}
+
+function square(){
+ z = z * 4
+}
+
+function beNice(){
+ greeting = greeting + " " + firstName
+}
+
+function changeName(){
+ firstName = "Danger"
+}
+
+function hangUp(){
+  callStatus = "call ended"
+}
 
 /*********************************************************************************************************************
 
@@ -62,6 +90,8 @@ if (typeof hangUp === 'undefined') {
 
 
 const assert = require('assert');
+const { DiffieHellmanGroup } = require('crypto');
+const { allowedNodeEnvironmentFlags } = require('process')
 
 describe('double', () => {
   it(`doubles x`, () => {
