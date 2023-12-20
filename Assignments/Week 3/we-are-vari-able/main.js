@@ -1,6 +1,21 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
+var myFirstName = "Andrea"
+var myLastName = "Bourland"
+var myFavoriteCeleb = "Tom Cruise"
+var mySentence = myFirstName + " " + myLastName + " " + myFavoriteCeleb
+var myLuckyNum = 7
+var myAge = 33
+var myHeight = 165
+var myFavoriteYear = 2014
+
+var mySum = 5 + 2317 + 36
+
+var myProduct = (232 * 43 / 2) + 4
+
+var myHeightAndAge = myHeight + myAge
+
 
 
 /*********************************************************************************************************************
