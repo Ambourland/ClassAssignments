@@ -4,7 +4,19 @@ Your code goes below.
 
 */
 
+var x = 3
+var y = 10
+var z = 5
+var name = "Andrea" 
+var greeting = "HEY"
 
+ function multiply(f){
+  x = x * f
+ }
+
+ function modYBy(j){
+  y = y / j
+ }
 
 
 
