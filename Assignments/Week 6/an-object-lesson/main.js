@@ -11,13 +11,13 @@ myPersevereCodeObj.wait= 'I object'
 
 console.log(myPersevereCodeObj.wait)
 // Add the new property `isAnExcellentObject` and set it to `true`.
-
-
+let isAnExcellentObject = true;
+console.log(isAnExcellentObject)
 // Add the property `term` and set it to 1.
-
+let term = 1;
 
 // Now add 1 to the value of your object's `term` property and put that new value back in your object's `term`.
-
+let term = term + 
 
 // Now add a new property called `currentScore` and set it to 3.
 

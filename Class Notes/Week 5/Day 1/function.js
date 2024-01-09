@@ -118,15 +118,15 @@
 
 // Declare a function name capitalizeArray. It takes array as a parameter and it returns the - capitalizedarray.
 
-function capitalizeArray(arr){
-    let country=[]
-    for(const country of arr){
-         console.log(country.toUpperCase())
-    }
+// function capitalizeArray(arr){
+//     let country=[]
+//     for(const country of arr){
+//          console.log(country.toUpperCase())
+//     }
    
-}
+// }
 
-capitalizeArray(["us","canada", "barcelona", "Mexico", "Norway"])
+// capitalizeArray(["us","canada", "barcelona", "Mexico", "Norway"])
 
 
 // function reverseArry(){
@@ -137,11 +137,21 @@ capitalizeArray(["us","canada", "barcelona", "Mexico", "Norway"])
 // reverseArry()
 
 
-function reverseArry(arr){
-    arr.reverse();
-    console.log(arr)
-}
-reverseArry(["a","b","c"])
-reverseArry(["cat","dog","cow"])
+// function reverseArry(arr){
+//     arr.reverse();
+//     console.log(arr)
+// }
+// reverseArry(["a","b","c"])
+// reverseArry(["cat","dog","cow"])
 
+
+
+
+
+//// arrow function
+
+
+let sum = (a,b) => a + b;
+
+console.log( sum(1,2) );
 

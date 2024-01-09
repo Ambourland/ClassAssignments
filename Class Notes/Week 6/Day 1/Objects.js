@@ -1,23 +1,23 @@
 //// 📔 Object
 //// Creating an empty object
 
-const house={
-  color : "blue",
-  bedrooms : 4,
-  levels : 1,
-  bathrooms : 1,
-  address: {
-    street: "1234 graham",
-    state: "tennessee",
-    city: "memphis",
-    zipCode: 38234
-  }
+// const house={
+//   color : "blue",
+//   bedrooms : 4,
+//   levels : 1,
+//   bathrooms : 1,
+//   address: {
+//     street: "1234 graham",
+//     state: "tennessee",
+//     city: "memphis",
+//     zipCode: 38234
+//   }
 
-}
+// }
 
-house.garage = "two car";
+// house.garage = "two car";
 
-console.log(house)
+// console.log(house)
 
 // const person={
 //     hight:"short",
@@ -105,3 +105,24 @@ console.log(house)
 // Get name, legs, color, age and bark value from the dog object
 // console.log(dog)
 // console.log(dog.bark())
+
+
+
+
+
+
+
+
+/////////// demoGraphic   country, city, age
+
+const person = {
+  country: "United States America",
+  city: "Memphis",
+  age: 25,
+  getInfo: function() {
+    return this.country;
+  }
+
+}
+console.log(person)
+console.log(person.getInfo())
