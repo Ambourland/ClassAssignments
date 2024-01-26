@@ -115,14 +115,69 @@
 
 /////////// demoGraphic   country, city, age
 
-const person = {
-  country: "United States America",
-  city: "Memphis",
-  age: 25,
-  getInfo: function() {
-    return this.country;
-  }
+// const person = {
+//   country: "United States America",
+//   city: "Memphis",
+//   age: 25,
+//   getInfo: function() {
+//     return this.country;
+//   }
 
+// }
+// console.log(person)
+// console.log(person.getInfo())
+
+
+// an empty object
+// const person = {}
+
+//creating an object objects
+// const rectangle = {
+//   length: 20,
+//   width: 10
+// }
+
+// console.log(rectangle)
+
+// const person = {
+//   firstName: "Andy",
+//   lastName: "Taylor",
+//   age: 25,
+//   skills: [
+//     "sing",
+//     "dance",
+//     "bowl",
+//     "draw"
+//   ],
+//   isMarried: true,
+// //full name
+//   getFullName: function() {
+//   return (this.firstName + " " + this.lastName)
+// },
+// }
+// console.log(person.getFullName())
+// //getting values from an object
+
+
+
+
+//create an object with at least 5 properties with values and include an array of values in your property; access certain values using the dot notation.
+
+const dog = {
+  color: "brown",
+  color2: "white spot",
+  legs: 4,
+  age: 6,
+  name: "Spot",
+  likes: [
+    "chasing tail",
+    "birds",
+    "flyball",
+    "treats",
+    "agility",
+  ],
+  bark: function() {
+    return "bow wow"
+  }
 }
-console.log(person)
-console.log(person.getInfo())
+console.log(dog.likes)
