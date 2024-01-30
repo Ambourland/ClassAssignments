@@ -163,21 +163,39 @@
 
 //create an object with at least 5 properties with values and include an array of values in your property; access certain values using the dot notation.
 
-const dog = {
-  color: "brown",
-  color2: "white spot",
-  legs: 4,
-  age: 6,
-  name: "Spot",
-  likes: [
-    "chasing tail",
-    "birds",
-    "flyball",
-    "treats",
-    "agility",
-  ],
-  bark: function() {
-    return "bow wow"
+// const dog = {
+//   color: "brown",
+//   color2: "white spot",
+//   legs: 4,
+//   age: 6,
+//   name: "Spot",
+//   likes: [
+//     "chasing tail",
+//     "birds",
+//     "flyball",
+//     "treats",
+//     "agility",
+//   ],
+//   bark: function() {
+//     return "bow wow"
+//   }
+// }
+// console.log(dog.likes)
+
+
+//object methods
+//manipulates an object
+//object.assign - to copy an object without modifying the original object
+
+// example
+const person = {
+    firstName: "Phillip",
+    LastName: "Jones",
+    age: 35,
+    skills: [
+      "HTML",
+      "Python",
+      "JS"
+    ],
   }
-}
-console.log(dog.likes)
+  const copyPerson = object.assign(person)
