@@ -3,7 +3,7 @@
 Let's do some string building!
 
 Start off by creating a repo for this assignment, then in  `main.js`, you'll write a series of functions.
-
+run `npm test`
 
 ### Guidelines
 

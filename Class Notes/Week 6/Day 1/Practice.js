@@ -181,10 +181,10 @@
 // console.log(areaOfCircle(10))
 
 
-const tpUpper = (text) => {
-     const uppercased = text.toUpperCase
-}
-console.log
+// const tpUpper = (text) => {
+//      const uppercased = text.toUpperCase
+// }
+// console.log
 
 // let is declare a block scoop. Is used for local varables
 
@@ -262,26 +262,150 @@ console.log
 //create a function that multiplies two numbers and paa both numbers in as parameter
 //create an expression
 
-function firstName(){
-let name = "Andrea"
-     console.log(name)
-}
-firstName()
+// function firstName(){
+// let name = "Andrea"
+//      console.log(name)
+// }
+// firstName()
 
-const lastName = () => {
-     let name = "Bourland"
-     console.log(name)
-}
-lastName()
+// const lastName = () => {
+//      let name = "Bourland"
+//      console.log(name)
+// }
+// lastName()
 
-function timesNum(num1, num2) {
-     let times = num1 * num2
-     console.log(times)
-}
-timesNum(1, 20)
+// function timesNum(num1, num2) {
+//      let times = num1 * num2
+//      console.log(times)
+// }
+// timesNum(1, 20)
 
-const square = function(w) {
-         return w * w
+// const square = function(w) {
+//          return w * w
      
-     }
-     console.log(square(10))
+//      }
+//      console.log(square(10))
+
+//add numbers
+// function addNum(n) {
+// let add = n + n
+// console.log(add)
+// }
+// addNum(5)
+
+// object
+// const dog = {
+//      name: "Spot",
+//      breed: "black-lab",
+//      ownerFisrtName: "Charles",
+//      ownerLastName: "Payette",
+//      skills:[
+//           "long jump",
+//           "throw ball",
+//           "agility",
+//           "hunting"
+//      ],
+//      bark: function(){
+//           return "bow wow"
+//      },
+//      ownerFullName: function(){
+//           return (this.ownerFisrtName + " " + this.ownerLastName)
+//      }
+// }
+// console.log(dog)
+// console.log(dog.bark())
+// console.log(dog.ownerFullName())
+
+// function multiple() {
+//      let a = 5
+//      let b = 9
+//      let mul = a * b
+//      console.log(mul)
+// }
+// multiple()
+
+// function multiple(a, b) {
+//      return a * b
+// }
+// console.log(multiple(5, 9))
+
+
+// multiple = (a, b) => {
+//   let sum = a * b
+//   console.log(sum)
+// }
+// multiple(5, 9)
+
+// myName = () => {
+//      let firstName = "Andrea";
+//      let lastName = "Bourland";
+//      let fullName = firstName + " " + lastName
+//      console.log(fullName)
+// }
+// myName()
+
+// const user = { fisrtName: 'John', lastName: "Doe"};
+
+// let i = 0;
+// while(i < 10) {
+//      i++;
+//      if (i === 5)continues;
+//      console.log(i);
+// }while (i < 0)
+
+// for(initiealiztion, condition, increment/decrement){
+//      // code here
+// }
+
+// // exmaple
+// for(let i = 0; i <= 5; i++){
+//      console.log(i)
+// }
+
+
+
+// for (let i = 10; i >= 0; i--){
+//      console.log(i)
+// }
+// const numbers = [1, 2, 3, 4, 5]
+// let sum = 0
+// for(let i = 0; i < numbers.length; i++) {
+//      sum = numbers[i]
+// }
+// console.log(sum)
+
+// let i = 5
+// while (i >= 0){
+//      console.log(i)
+//      i--
+// }
+
+// let i = 0
+// while(i <= 20){
+//      console.log(i)
+//      i++
+// }
+
+
+// Declare an array with 3 items; initialize a for loop to run for the length of the array
+
+
+// Using a for loop print all even numbers up to and including n. Don’t include 0.
+
+// let n1 = 22;
+
+// for (let n = 2; n <= n1; n += 2){
+//      console.log(n)
+// }
+
+// let i = 2
+// do{
+//      console.log(i)
+//      i += 2
+// }while(i <= 22)
+
+let i = 2
+while (i <= 22){
+     console.log(i)
+     i += 2
+}
