@@ -404,8 +404,86 @@
 //      i += 2
 // }while(i <= 22)
 
-let i = 2
-while (i <= 22){
-     console.log(i)
-     i += 2
+// let i = 2
+// while (i <= 22){
+//      console.log(i)
+//      i += 2
+// }
+
+// for loops = some code a LIMITED amount of  times   //while loop = infinte amount of times
+// count up
+// for(let i = 1; i <= 10; i++){
+//      console.log(i);
+// }
+
+// // count down
+// for(let i = 10; i >= 1; i--){
+//      console.log(i);
+// }
+
+
+//continue then break
+// for(let i = 1; i <= 20; i++){
+//      if(i ==13){
+//           break;    /*continue = skip number 13*/    /*break = stop counting at that number*/
+//      }else{
+//           console.log(i)
+//      }
+// }
+
+// for(let i = 0; i <= 100; i += 2){
+//      console.log(i)
+// }
+
+// //while loop
+// let i = 0
+// while (i <= 5){
+//      console.log(i)
+//      i++
+// }
+// 0 1 2 3 4 5
+
+// //do while loop
+// let i = 0
+// do {
+//      console.log(i)
+//      i++
+// }while(i <= 5)
+
+
+// //for of loop - used for arrays
+// for (const element of arr){
+//      console.log(num)
+// }
+
+// //example
+// const numbers = [1, 2, 3, 4, 5]
+// for (const num of numbers){
+//      console.log(num)
+// }
+
+// const webClass = ["html", "css", "js", "react"]
+// for (const classes of webClass){
+//      console.log(classes.toUpperCase())
+// }
+
+function myName(){
+     let name = "Andrea"
+     console.log(name)
 }
+
+const add = function(n){
+     return n + n
+}
+console.log(add(1))
+
+function square(number) {
+     return number * number
+}
+square(10)
+
+function addNumbers(num1, num2) {
+     let sum = num1 + num2
+     console.log(sum)
+}
+addNumbers(10, 20)
