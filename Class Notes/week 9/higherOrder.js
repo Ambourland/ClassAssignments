@@ -4,8 +4,16 @@
 // const callback = (n) =>{
 //     return n ** 2
 // }
+// const addNum = (n) =>{
+//    return n + n
+// }
 
-// //function that takes other function as a callback
+// function square(addNum, n) {
+//     return addNum(n) + n
+// }
+// console.log(square(addNum, 3))
+
+// // //function that takes other function as a callback
 // function cube(callback, n) {
 //     return callback(n) * n
 // }
@@ -74,11 +82,34 @@
 
 // practice
 
-function english() {
-    console.log('Hello, my name is Andrea')
+// function english() {
+//     console.log('Hello, my name is Andrea')
+// }
+//  function french() {
+//     console.log("Bonjour, je m'appelle Andrea")
+//  }
+//  setTimeout(french, 5000)
+//  setTimeout(english, 10000)
+
+
+
+// // This is my callback function
+// const myCallBack = (n) => {
+//     return n * 2
+// }
+// // this function will use the callback (myCallBack)
+// function cube(myCallBack, n) {
+//     return myCallBack(n) * n
+// }
+// console.log(cube(myCallBack, 2))
+
+// create callback function called (myCallback2)
+const myCallback2 = (n) => {
+    return n * n
 }
- function french() {
-    console.log("Bonjour, je m'appelle Andrea")
- }
- setTimeout(french, 5000)
- setTimeout(english, 10000)
+
+//this will call my function (myCallback)
+function add(myCallback2, n) {
+    return myCallback2(n) + n
+}
+console.log(add(myCallback2, 2))

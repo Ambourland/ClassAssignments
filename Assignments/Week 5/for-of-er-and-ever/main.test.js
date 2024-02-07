@@ -1,18 +1,7 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-var arr1 = [1, 2, 3, 4, 5];
-var arr2 = [10, 20, 30, 40, 50];
-var arr3 = [5, 3, 6, 4, 5];
 
-function addAll(arr) {
-  var sum = 0;
-  for (var i = 0; i < arr.length; i++) {
-    sum = sum + arr[i]
-    console.log(sum)
-}
-}
-addAll()
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
