@@ -467,23 +467,23 @@
 //      console.log(classes.toUpperCase())
 // }
 
-function myName(){
-     let name = "Andrea"
-     console.log(name)
-}
+// function myName(){
+//      let name = "Andrea"
+//      console.log(name)
+// }
 
-const add = function(n){
-     return n + n
-}
-console.log(add(1))
+// const add = function(n){
+//      return n + n
+// }
+// console.log(add(1))
 
-function square(number) {
-     return number * number
-}
-square(10)
+// function square(number) {
+//      return number * number
+// }
+// square(10)
 
-function addNumbers(num1, num2) {
-     let sum = num1 + num2
-     console.log(sum)
-}
-addNumbers(10, 20)
+// function addNumbers(num1, num2) {
+//      let sum = num1 + num2
+//      console.log(sum)
+// }
+// addNumbers(10, 20)
