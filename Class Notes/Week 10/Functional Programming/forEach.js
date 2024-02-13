@@ -17,17 +17,17 @@
 //     console.log(element, index, arr)
 // }
 
-let sum = 0
-const numbers = [1, 2, 3, 4, 5];
-numbers.forEach(num => sum += num)
+// let sum = 0
+// const numbers = [1, 2, 3, 4, 5];
+// numbers.forEach(num => sum += num)
 
-console.log(sum)
+// console.log(sum)
 
-function (num) {
-    sum += num 
-}
+// function(num) {
+//     sum += num 
+// }
 
-let sum
+
 
 //optional
 //map

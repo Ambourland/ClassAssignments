@@ -487,3 +487,28 @@
 //      console.log(sum)
 // }
 // addNumbers(10, 20)
+
+
+// 1.  Define a callback function with the function, you will use forEach method & the map method.
+// const callback = (n) => {
+//      return n * 2
+//  }
+ 
+//  function cube(callback, n) {
+//      return callback(n) * n
+//  }
+//  console.log(cube(callback, 3))
+
+
+ let sum = 0
+ const numbers = [1, 2, 3, 4, 5]
+numbers.forEach(num => sum += num)
+
+
+numbersAdd = numbers.map((num) => num + num)
+
+
+
+// 2.  use the forEach method to console.log the numbers in an array
+console.log(sum)
+console.log(numbersAdd)
