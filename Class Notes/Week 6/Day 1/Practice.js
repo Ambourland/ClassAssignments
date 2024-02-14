@@ -500,15 +500,39 @@
 //  console.log(cube(callback, 3))
 
 
- let sum = 0
- const numbers = [1, 2, 3, 4, 5]
-numbers.forEach(num => sum += num)
+//  let sum = 0
+//  const numbers = [1, 2, 3, 4, 5]
+// numbers.forEach(num => sum += num)
 
 
-numbersAdd = numbers.map((num) => num + num)
+// numbersAdd = numbers.map((num) => num + num)
 
 
 
-// 2.  use the forEach method to console.log the numbers in an array
-console.log(sum)
-console.log(numbersAdd)
+// // 2.  use the forEach method to console.log the numbers in an array
+// console.log(sum)
+// console.log(numbersAdd)
+
+
+// const numbers = [2, 3, 40, 50]
+// numbers.forEach(mynumbers)
+
+// function mynumbers(num) {
+//      console.log(num)
+// }
+
+
+// const names = ["Bridgett", "Kendra", "Kenny"]
+// const newNames = names.map((element) => element.toUpperCase())
+// console.log(newNames)
+
+const countries = [
+     "Albania",
+     "Bolivia",
+     "Canada",
+     "Denmark",
+     "Finland",
+     "Ireland"
+]
+const countriesContainingLand = countries.filter((country) => country.includes('land'))
+console.log(countriesContainingLand)
