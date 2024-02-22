@@ -1,16 +1,33 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let xify = (str) => {
+  let output = "";
+  while (output.length < str.length) {
+    output += "x"
+  }
+  return output
+}
+
+
+var str="goodness";
+function yellingChars(str, n) {
+   var a = [], start=0;
+   while(start<str.length) {
+      a.push(str.slice(start, start+n));
+      start+=n;
+   }
+   console.log(a.join(" "));
+}
+yellingChars(str,1);
 
 
 
 
-
-
- /********************************************
- * CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
- *           PLEASE DON'T TOUCH!            *
- ********************************************/
+/********************************************
+* CODE DOWN HERE IS FOR INTERNAL USE ONLY. *
+*           PLEASE DON'T TOUCH!            *
+********************************************/
 
 if (typeof xify === 'undefined') {
   xify = undefined;

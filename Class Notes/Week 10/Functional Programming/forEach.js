@@ -27,6 +27,17 @@
 //     sum += num 
 // }
 
+// const name = function() {
+//     console.log("Hello my name is Andrea")
+// }
+
+// console.log(name())
+
+// const addNum = (a, b) => a + b
+// console.log(addNum(2, 3))
+
+
+
 
 
 //optional

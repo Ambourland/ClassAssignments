@@ -1,9 +1,17 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-let nums = []
+function addNoise(animals) {
+  return animals.map(animal => {
+    switch (animal) {
+      case "cat":
+        return animal + "meow";
+      case "dog":
+        return animal + "bark";
 
-nums[0]
+    }
+  })
+}
 
 
 /*********************************

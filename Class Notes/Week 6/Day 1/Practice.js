@@ -526,13 +526,54 @@
 // const newNames = names.map((element) => element.toUpperCase())
 // console.log(newNames)
 
-const countries = [
-     "Albania",
-     "Bolivia",
-     "Canada",
-     "Denmark",
-     "Finland",
-     "Ireland"
+// const countries = [
+//      "Albania",
+//      "Bolivia",
+//      "Canada",
+//      "Denmark",
+//      "Finland",
+//      "Ireland"
+// ]
+// const countriesContainingLand = countries.filter((country) => country.includes('land'))
+// console.log(countriesContainingLand)
+
+const countries = ['Finland', 'Sweden', 'Denmark', 'Norway', 'IceLand']
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const products = [
+  { product: 'banana', price: 3 },
+  { product: 'mango', price: 6 },
+  { product: 'potato', price: ' ' },
+  { product: 'avocado', price: 8 },
+  { product: 'coffee', price: 10 },
+  { product: 'tea', price: '' },
 ]
-const countriesContainingLand = countries.filter((country) => country.includes('land'))
-console.log(countriesContainingLand)
+
+
+
+
+
+
+
+
+// Use filter to filter out countries having six character.
+// const countriesWithSixLetters = countries.filter((country) => country.length === 6)
+// console.log(countriesWithSixLetters)
+
+// Use filter to filter out countries containing six letters and more in the country array.
+const countriesGreaterThanSix = countries.filter((country) => country.length > 6)
+console.log(countriesGreaterThanSix)
+
+// Use filter to filter out country start with 'E';
+const countryE = countries.filter((country) => country.startsWith("E"))
+console.log(countryE)
+
+// Use filter to filter out only prices with values.
+const priceValues = products.filter((products) => )
+console.log(priceValue)
+// Declare a function called getStringLists which takes an array as a parameter and then returns an array only with string items.
+function getStringLists = () =>
+// Use reduce to sum all the numbers in the numbers array.
+// Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
+// Explain the difference between some and every
+
