@@ -1,17 +1,88 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-function addNoise(animals) {
-  return animals.map(animal => {
-    switch (animal) {
-      case "cat":
-        return animal + "meow";
-      case "dog":
-        return animal + "bark";
-
-    }
-  })
+const addAll = function(arr1){
+  //adding everything together
+let total = 0
+//looping through
+  for(let num of arr1){
+    // total = total + num
+    total += num
+  }
+  //return sum
+  return total
 }
+const countSpaces = function(str1){
+  let counter = 0
+  for(let char of str1){
+    if(char === " "){
+      counter++
+    }
+  }
+return counter
+}
+const countTrues = function(arr2){
+  let trues = 0
+  for(let boolean of arr2){
+    if(boolean === true){
+      trues ++
+    }
+  }return trues
+}
+const makeFriendly = function(paragraph){
+  let str = ""
+  for(let char of paragraph){
+   if(char !== "."){
+   str = str + char
+  }else {
+    str = str + "!"
+  }
+}return str
+}
+const cubeAll = function(nums1){
+  let total = []
+  for(let i of nums1){
+    total.push(i*i*i)
+   } return total
+}
+const addNoises = function(animals1){
+    let newArr = []
+    for(let animal of arr){
+      if(animal === 'Nala' || animal === 'Honey' || animal === 'Shyanne'){
+        noisyArr.push(animal + ' says "Rawr!"')
+    }else if(animal === 'Kitty' || animal === 'Kelso'){
+      noisyArr.push(animal + ' says "Meow!"')
+    }else if(animal === 'Pig' || animal === 'FatBoy'){
+      noisyArr.push(animal + ' says "Oink"')
+    }
+  } return noisyArr
+  }
+  ////1st attempt--wrong
+  // const womenOnly = function(arr4){
+  //     for(let names of arr4){
+  //       if(names !== ""){
+  //         str1 = []
+  //       }if(names.endWith("F")){
+  //         return str1
+  //   }
+  //     }
+  //   }
+  const womenOnly = function(arr){
+    const women = []
+    for(let person of arr){
+      if(person[person.length - 1] === "F"){
+        women.push(person)
+      }
+    } return women
+  }
+    const integersOnly = function(arr){
+      const integers = []
+      for(let num of arr){
+        if(num % 1 === 0){
+          integers.push(num)
+        }
+      }return integers
+    }
 
 
 /*********************************
