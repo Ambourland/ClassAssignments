@@ -579,9 +579,18 @@
 
 
 
-let arr = [3, 4, 5, 6];
+// let arr = [3, 4, 5, 6];
 
-let modifiedArr = arr.map(function(element){
-  return element * 3;})
+// let modifiedArr = arr.map(function(element){
+//   return element * 3;})
 
-console.log(modifiedArr)
+// console.log(modifiedArr)
+
+
+
+let text = `Is this 
+all there 
+is`;
+let pattern = /^is/mi;
+let result = text.match(pattern);
+console.log(result)
