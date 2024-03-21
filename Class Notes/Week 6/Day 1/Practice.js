@@ -588,9 +588,12 @@
 
 
 
-let text = `Is this 
-all there 
-is`;
-let pattern = /^is/mi;
-let result = text.match(pattern);
-console.log(result)
+// let text = `Is this 
+// all there 
+// is`;
+// let pattern = /^is/mi;
+// let result = text.match(pattern);
+// console.log(result)
+
+
+
