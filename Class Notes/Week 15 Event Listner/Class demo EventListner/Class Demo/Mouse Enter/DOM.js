@@ -10,3 +10,14 @@
 
 
 // Mouse enter
+
+
+let hover = document.getElementById("demo")
+hover.addEventListener("mouseenter", mouseEnter)
+hover.addEventListener("mouseleave", mouseLeave)
+function mouseEnter() {
+    hover.style.color = "red"
+}
+function mouseLeave() {
+    hover.style.color = "black"
+}
