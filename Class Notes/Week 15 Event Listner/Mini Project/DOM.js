@@ -17,18 +17,39 @@ function isPrime(num) {
 // Even numbers background is green
 // Odd numbers background is yellow
 // Prime numbers background is red
-
+let genButton = document.getElementById("genButton")
 //Create a function that generates the numbers based on the input filed
+const numberGenator = () =>{
 
 // Get the value from the input field with the id 'inputNumber'
-    
+    let inputNumber = document.getElementById("inputNumber").value
     // Get the div container with the id 'numberContainer'
-    
+    let numberContainer = document.getElementById("numberContainer");
+
     // Clear the contents of the number container
-    
-    
+    numberContainer.innerText = "";
+   
     // Loop from 1 to the inputNumber
+         for(i = 1; i <= inputNumber; i++){
+        let div = document.createElement("div")
+        div.textContent = `${i}`
+        div.classList.add("number")
+        if (i % 2 === 0) {
+            div.classList.add("even");
+        } else {
+            div.classList.add("odd");
+        }
+         if (isPrime(i)) {
+            div.classList.add("prime");
+
         
+        console.log()
+    }
+    numberContainer.appendChild(div)
+    }
+};
+numberGenator()
+
         // Create a new div element
         
         // Set the text content of the div to the current number (i)
